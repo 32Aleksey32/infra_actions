@@ -6,4 +6,4 @@ def index(request):
 
 
 def second_page(request):
-    return HttpResponse(request, 'А это вторая страница')
+    return HttpResponse(request, 'А это вторая страница!')
